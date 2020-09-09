@@ -67,6 +67,7 @@ button {
     p {
         font-size: 1.1vw;
         width: 37vw;
+        color: hsl(238, 22%, 44%);
     }
 
     img {
@@ -78,7 +79,9 @@ button {
     input {
         font-size: 0.8vw;
         width: 20vw;
-        height: 2.3vw;
+        padding-top: 0.75vw;
+        padding-bottom: 0.75vw;
+        border: 0.1vw solid hsl(243, 87%, 12%);
         color: hsl(0, 0%, 75%);
         padding-left: 1vw;
         border-radius: 0.2vw;
@@ -91,6 +94,7 @@ button {
         padding-right: 4.6vw;
         padding-top: 0.9vw;
         font-size: 0.8vw;
+        font-weight: 700;
         margin-left: 1vw;
         box-shadow: 0vw 0vw 1vw hsl(0, 0%, 75%);
     }
@@ -110,6 +114,7 @@ button {
     p {
         font-size: 1.1vw;
         width: 37vw;
+        color: hsl(238, 22%, 44%);
     }
 
     #works {
@@ -202,7 +207,9 @@ button {
         position: absolute;
         font-size: 0.8vw;
         width: 25vw;
-        height: 2.3vw;
+        padding-top: 0.75vw;
+        padding-bottom: 0.75vw;
+        border: 0.1vw solid hsl(243, 87%, 12%);
         color: hsl(0, 0%, 75%);
         padding-left: 1vw;
         margin-left: 57vw;
@@ -214,10 +221,11 @@ button {
     button {
         position: absolute;
         border-radius: 0.2vw;
-        padding-bottom: 0.7vw;
+        padding-top: 0.75vw;
+        padding-bottom: 0.75vw;
         padding-left: 2.6vw;
         padding-right: 2.6vw;
-        padding-top: 0.9vw;
+        font-weight: 700;
         font-size: 0.8vw;
         margin-left: 57vw;
         margin-top: -3.5vw;
@@ -274,3 +282,262 @@ button {
         }
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .attribution { 
+        font-size: 2.8vw; 
+    }
+
+    body {
+        background-image: url(../images/bg-curve-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: -300vw 200vw;
+        background-size: 700vw 450vw;
+    }
+    
+    #logo {
+        width: 20vw;
+        margin-left: 7vw;
+        margin-top: 4vw;
+    }
+    
+    #nav {
+        margin-left: 50vw;
+        margin-top: 5vw;
+        font-size: 3vw;
+    }
+    
+    #ill1, #ill2 {
+        width: 80vw;
+    }
+    
+    #block1 {
+        margin-top: 17vw;
+        width: 80vw;
+        height: 150vw;
+         
+        h1 {
+            font-size: 6.5vw;
+            line-height: 8vw;
+            width: 85vw;
+            margin-top: 80vw;
+            text-align: center;
+            position: absolute;
+        }
+    
+        p {
+            position: absolute;
+            font-size: 3.7vw;
+            margin-top: 112vw;
+            width: 85vw;
+            text-align: center;
+        }
+    
+        img {
+            margin-left: 0vw;
+            margin-top: 12vw;
+        }
+    
+        input {
+            font-size: 3.7vw;
+            width: 80vw;
+            padding-top: 3vw;
+            padding-bottom: 3vw;
+            padding-left: 4vw;
+            border-radius: 1vw;
+            position: absolute;
+            margin-top: 137vw;
+        }
+    
+        button {
+            border-radius: 1vw;
+            padding-bottom: 3vw;
+            width: 85vw;
+            padding-top: 3vw;
+            font-size: 3.7vw;
+            margin-left: 0vw;
+            margin-top: 152vw;
+            position: absolute;
+        }
+    }
+    
+    #block2 {
+        margin-top: 15vw;
+        width: 80vw;
+        height: 270vw;
+    
+        h1 {
+            font-size: 4.5vw;
+            line-height: 8vw;
+            width: 85vw;
+            margin-top: 120vw;
+            text-align: center;
+            position: absolute;
+        }
+    
+        p {
+            position: absolute;
+            font-size: 3.7vw;
+            margin-top: 140vw;
+            width: 85vw;
+
+        }
+    
+        #works {
+            font-size: 3.7vw;
+            width: 40vw;
+            position: absolute;
+            margin-top: 185vw;
+            margin-left: 20vw;
+    
+            img {
+                width: 5vw;
+                margin-left: 0.5vw;
+                margin-top: -0.5vw;
+            }
+        }
+    
+        #quote {
+            width: 60vw;
+            height: 35vw;
+            border-radius: 1vw;
+            padding: 7vw;
+            margin-top: 200vw;
+            margin-left: 5vw;
+            position: absolute;
+    
+            #q {
+                width: 3.5vw;
+            }
+            
+            p {
+                font-size: 2.8vw;
+                margin-top: 5vw;
+                width: 62vw;
+            }
+    
+            #avatar {
+                border-radius: 50%;
+                width: 10vw;
+                margin-top: 25vw;
+            }
+    
+            h2 {
+                margin-left: 13vw;
+                font-size: 2.5vw;
+                margin-top: 27vw;
+            }
+    
+            h3 {
+                font-size: 2vw;
+                margin-left: 13vw;
+                margin-top: 32vw;
+            }
+    
+        }
+    
+        #ill2 {
+            position: absolute;
+            margin-left: 0vw;
+            margin-top: 40vw;
+        }
+    }
+    
+    #block3 {
+        padding-left: 7vw;
+        height: 90vw;
+        padding-top: 10vw;
+    
+        h1 {
+            font-size: 5vw;
+            line-height: 6vw; 
+            margin-bottom: -0.5vw;
+            text-align: center;
+            margin-left: -7vw;
+        }
+    
+        p {
+            font-size: 3.7vw;
+            width: 70vw;
+            text-align: center;
+            margin-left: 7vw;
+            margin-top: 5vw;
+        }
+    
+        input {
+            font-size: 3.7vw;
+            width: 60vw;
+            padding-top: 3vw;
+            padding-bottom: 3vw;
+            padding-left: 4vw;
+            border-radius: 1vw;
+            position: absolute;
+            margin-top: 5vw;
+            margin-left: 9.5vw;
+        }
+    
+        button {
+            border-radius: 1vw;
+            padding-bottom: 3vw;
+            width: 65vw;
+            padding-top: 3vw;
+            font-size: 3.7vw;
+            margin-left: 9.5vw;
+            margin-top: 20vw;
+            position: absolute;
+        }
+    }
+    
+    #bottom {
+        background-color: hsl(243, 87%, 12%);
+        color: hsl(240, 75%, 98%);
+        height: 170vw;
+    
+        #logo2 {
+            margin-left: 10vw;
+            margin-top: 10vw;
+            width: 40vw;
+        }
+    
+        #container {
+            flex-flow: column;
+            justify-content: space-evenly;
+            width: 90vw;
+            margin-top: 8vw;
+            font-size: 4.2vw;
+            line-height: 10vw;
+    
+            #col1 {
+                margin-left: 10vw;
+    
+                img {
+                    margin-right: 0.2vw;
+                    width: 4vw;
+                }
+            }
+    
+            #col2 {
+                margin-left: 10vw;
+                margin-top: 8vw;
+            }
+    
+            #col3 {
+                margin-left: 10vw;
+                margin-top: 8vw;
+            }
+    
+            #icons {
+                margin-left: 34vw;
+                position: absolute;
+                margin-top: 140vw;
+    
+                ion-icon {
+                    padding: 2vw;
+                    width: 4vw;
+                    height: 4vw;
+                    margin-left: 0.8vw;
+                }
+            }
+        }
+    }
+  }
